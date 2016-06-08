@@ -30,6 +30,10 @@ public class CustomerRestController {
         return customers;
     }
 
+    /**
+     * @param id 顧客ID
+     * @return 顧客一件取得
+     */
     @RequestMapping(value = "{id}", method = RequestMethod.GET)
     Customer getCustomer(@PathVariable Integer id) {
         Customer customer = customerService.findOne(id);
