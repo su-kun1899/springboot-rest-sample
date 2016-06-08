@@ -1,4 +1,4 @@
-package com.higedrum.springboot.rest.sample;
+package com.higedrum.springboot.rest.sample.service;
 
 import com.higedrum.springboot.rest.sample.domain.Customer;
 import com.higedrum.springboot.rest.sample.repository.CustomerRepository;
